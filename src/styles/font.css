@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Monrope';
+    src: url('../styles//Manrope-Medium.woff2');
+}
+
+body{
+    font-family: 'Monrope',sans-serif;
+}
