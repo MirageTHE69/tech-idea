@@ -1,6 +1,5 @@
-import React from "react";
+import React from "react"
 import Logo from "../images/logo.svg"
-
 
 function Navbar() {
   return (
@@ -13,16 +12,24 @@ function Navbar() {
           </div>
           {/* Menu Items */}
           <div className="flex items-center space-x-8">
-            <a href="#" className="text-white hover:text-gray-300">Home</a>
-            <a href="#" className="text-white hover:text-gray-300">Product</a>
-            <a href="#" className="text-white hover:text-gray-300">Contact Us</a>
+            <a href="#" className="text-white hover:text-gray-300 no-underline">
+              Home
+            </a>
+            <a href="#" className="text-white hover:text-gray-300 no-underline">
+              Product
+            </a>
+            <a href="#" className="text-white hover:text-gray-300 no-underline">
+              Contact Us
+            </a>
           </div>
           {/* Contact Button */}
-          <button className="border border-white text-white px-4 py-2 rounded hover:bg-white hover:text-black">Contact Us</button>
+          <button className="border border-white text-white px-4 py-2 rounded hover:bg-white hover:text-black">
+            Contact Us
+          </button>
         </div>
       </div>
     </nav>
-  );
+  )
 }
 
-export default Navbar;
+export default Navbar
