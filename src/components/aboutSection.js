@@ -11,18 +11,18 @@ function AboutSection() {
         <div className="text-center lg:text-left">
             <span className=" text-[#F4790F] text-start text-sm">About Us</span>
           <h2 className="text-3xl font-bold mb-4 text-white">Professional Technology Assistance</h2>
-          <p className="mb-4">
+          <p className="mb-4 text-white">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
             ornare turpis a magna porta, id lobortis purus convallis. Integer
             nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
           </p>
-          <p>
+          <p className="text-white">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
             ornare turpis a magna porta, id lobortis purus convallis. Integer
             nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
           </p>
 
-          <p>
+          <p className="text-white">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
             ornare turpis a magna porta, id lobortis purus convallis. Integer
             nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.

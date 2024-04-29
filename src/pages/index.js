@@ -8,6 +8,10 @@ import * as styles from "../components/index.module.css"
 import Navbar from "../components/navbar"
 import Hero from "../components/hero"
 import AboutSection from "../components/aboutSection"
+import AntiVirusSection from "../components/antivirusSection"
+import ProductSection from "../components/productsSection"
+import Contactus from "../components/contactUs"
+import Footer from "../components/footer"
 
 
 const IndexPage = () => (
@@ -15,7 +19,11 @@ const IndexPage = () => (
   <Navbar/>
   <Hero/>
   <AboutSection/>
-
+  <AntiVirusSection/>
+  <ProductSection/>
+  <Contactus/>
+  <Footer/>
+  
 </div>
 
 )
