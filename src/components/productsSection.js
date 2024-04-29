@@ -13,7 +13,7 @@
                 All tech products that are designed for different purposes
             </span>
             </div>
-            <Link to="/antiviruspage">
+            <Link to="/productspage">
             <button className="px-6 py-2 ml-6 mt-5 bg-[#F4790F] text-white rounded-2xl hover:bg-[#F4790F]">
               Explore More
             </button>
