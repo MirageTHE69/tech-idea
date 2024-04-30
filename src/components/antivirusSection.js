@@ -1,5 +1,7 @@
 import React from "react"
 import Image from "../images/imageinfo.svg"
+import { Link } from "gatsby";
+
 
 function AntiVirusSection() {
   return (
@@ -43,9 +45,11 @@ function AntiVirusSection() {
                 d in it’s tracks.
               </p>
             </div>
-            <button className="mt-4 px-6 py-2 bg-[#F4790F] text-white  rounded-xl hover:bg-[#F4790F]">
-              Read More
+            <Link to="/antiviruspage">
+            <button className="px-6 py-2 mt-5 bg-[#F4790F] text-white rounded-2xl hover:bg-[#F4790F]">
+              Explore More
             </button>
+          </Link>
           </div>
           <img src={Image} alt=" "  className=" " />
         </div>

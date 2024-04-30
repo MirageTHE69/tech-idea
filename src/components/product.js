@@ -90,8 +90,7 @@ function Product() {
       </div>
 
     </div>
-
-    
+ 
 
     
   );

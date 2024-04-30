@@ -3,3 +3,41 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+.feature-chip {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    padding: 0 1rem;
+    color: #fff;
+    border-radius: 999px;
+    background: linear-gradient(145deg, #0b1a37, #0D224B); /* Gradient background */
+    overflow: hidden;
+  }
+  
+  .feature-chip::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border-radius: 999px;
+    box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.5); /* Increased box-shadow size */
+    animation: glowingBorder 2s linear infinite;
+  }
+  
+  @keyframes glowingBorder {
+    0% {
+      box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.5); /* Increased box-shadow size */
+    }
+    50% {
+      box-shadow: 0 0 40px 20px rgba(255, 255, 255, 0.5); /* Increased box-shadow size */
+    }
+    100% {
+      box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.5); /* Increased box-shadow size */
+    }
+  }

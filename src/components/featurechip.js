@@ -2,7 +2,7 @@ import React from "react";
 
 function Featurechip({ text }) {
   return (
-    <div className="flex h-14 items-center justify-center text-white rounded-3xl bg-[#0D224B]">
+    <div className="feature-chip">
       <span>{text}</span>
     </div>
   );
