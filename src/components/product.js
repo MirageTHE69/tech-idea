@@ -2,13 +2,12 @@ import React from "react";
 import MiniSvg1 from '../images/minipc1.svg';
 import MiniSvg2 from '../images/minipc2.svg';
 
-
 function Product() {
   return (
-    <div className="flex h-screen w-screen flex-row p-10 items-center justify-center">
+    <div className="flex flex-col lg:flex-row p-10 items-center justify-center">
 
-      {/* Product 1   */}
-      <div className="flex h-full w-1/2 flex-col text-white p-16 gap-1">
+      {/* Product Description */}
+      <div className="lg:w-1/2 flex flex-col text-white p-8 gap-4">
         <span className="text-[#F4790F] text-3xl font-semibold">TI -VH50</span>
         <span className="text-2xl font-semibold">Compact & Powerful Mini PC</span>
         <div className="mt-8 flex flex-col gap-3">
@@ -80,19 +79,21 @@ function Product() {
           </div>
         </div>
       </div>
-      <div className="w-1/2 bg-[#0D224B] h-full flex flex-col items-center justify-center rounded-3xl">
-        <div className="w-[80%] flex justify-center">
-          <img src={MiniSvg1} className="object-cover h-64" alt="Mini PC 1" />
-        </div>
-        <div className="w-[80%] flex justify-center">
-          <img src={MiniSvg2} className="object-cover h-64" alt="Mini PC 2" />
-        </div>
-      </div>
+
+      {/* Product Images */}
+      <div className="lg:w-1/2 bg-[#0D224B] h-[60vh] lg:h-auto flex lg:flex-col p-5 lg:p-0 lg:gap-0 gap-10 items-center justify-center rounded-3xl">
+  <div className="w-[80%] lg:w-full flex justify-center">
+    <img src={MiniSvg1} className="object-cover max-w-full h-auto" alt="Mini PC 1" />
+  </div>
+  <div className="w-[80%] lg:w-full flex justify-center">
+    <img src={MiniSvg2} className="object-cover max-w-full h-auto" alt="Mini PC 2" />
+  </div>
+</div>
+
+
+
 
     </div>
- 
-
-    
   );
 }
 
