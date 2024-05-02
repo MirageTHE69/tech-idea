@@ -3,14 +3,20 @@ import Bg from "../images/bg.svg";
 
 function Hero() {
   return (
-    <div className="min-w-screen h-auto relative ">
-      <img src={Bg} alt="" className="h-auto w-auto" />
+    <div className="min-h-screen relative">
+      <img src={Bg} alt="" className="absolute inset-0 w-full h-full object-cover" />
       <div className="absolute inset-0 bg-[#08152E] opacity-50"></div>
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-        <h1 className="text-4xl font-bold">Lorem Ipsum is simply dummy text</h1>
-        <p className=" text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-Lorem Ipsum has been the industry's standard dummy text </p>
-        <button className="mt-4 px-6 py-2 bg-[#F4790F] text-white  rounded-2xl hover:bg-[#F4790F]">Explore our Products</button>
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-8">
+        <h1 className="text-4xl font-bold text-center md:text-5xl lg:text-6xl">
+          Lorem Ipsum is simply dummy text
+        </h1>
+        <p className="text-center md:text-lg lg:text-xl max-w-lg mt-4">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+          has been the industry's standard dummy text
+        </p>
+        <button className="mt-8 px-6 py-3 bg-[#F4790F] text-white rounded-2xl hover:bg-[#F4790F]">
+          Explore our Products
+        </button>
       </div>
     </div>
   );
