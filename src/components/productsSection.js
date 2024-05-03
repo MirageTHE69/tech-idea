@@ -1,6 +1,10 @@
     import React from "react"
     import ArrowSvg from "../images/arrow.svg"
     import { Link } from "gatsby";
+    import MinipcSvg from "../images/minipc1.svg"
+    import SugarCubeSvg from "../images/sugar-cube.png"
+    import ITXSvg from "../images/ITX-PC.png"
+    import PcSvg from "../images/PC.png"
 
 
     function ProductSection() {
@@ -28,18 +32,36 @@
                 <img src={ArrowSvg} alt="" />
             </div>
             </div>
-            <div class="p-5">
+            <div class="p-5  ">
             <div class="mb-4 border-t border-white"></div>
             <span class="text-white text-sm">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
+            Compact & Powerful Mini PC,Compact Size,Low Power Consumption
             </span>
+            <img src={MinipcSvg} className="h-[40vh] flex items-center justify-center w-full "/>
             </div>
         </div>
 
         <div class="h-[60vh] rounded-2xl bg-[#0D224B]">
             <div class="flex justify-between px-8 py-4">
-            <span class="text-white text-lg font-semibold">Mini pc</span>
+            <span class="text-white text-lg font-semibold">TI -VH17</span>
+            <div class="h-10 w-10 ">
+                <img src={ArrowSvg} alt="" />
+            </div>
+            </div>
+            <div class="p-5 ">
+            <div class="mb-4 border-t border-white"></div>
+            <span class="text-white text-sm">
+            SugarCube Mini PC.,Ultra Small Size,Low Power Consumption,VESA Support
+            </span>
+            <div className=" w-full h-full flex items-center justify-center">
+            <img src={SugarCubeSvg} className=" h-[30vh] mt-10  "/>
+            </div>
+            </div>
+        </div>
+
+        <div class="h-[60vh] rounded-2xl bg-[#0D224B]">
+            <div class="flex justify-between px-8 py-4">
+            <span class="text-white text-lg font-semibold">TI -VH70</span>
             <div class="h-10 w-10 ">
                 <img src={ArrowSvg} alt="" />
             </div>
@@ -47,15 +69,16 @@
             <div class="p-5">
             <div class="mb-4 border-t border-white"></div>
             <span class="text-white text-sm">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
+            Standard  Thin Mini ITX Mini PC
             </span>
+            <img src={PcSvg} className="h-[40vh] flex items-center justify-center w-full "/>
+
             </div>
         </div>
 
         <div class="h-[60vh] rounded-2xl bg-[#0D224B]">
             <div class="flex justify-between px-8 py-4">
-            <span class="text-white text-lg font-semibold">Mini pc</span>
+            <span class="text-white text-lg font-semibold"> ITX Mini PC</span>
             <div class="h-10 w-10 ">
                 <img src={ArrowSvg} alt="" />
             </div>
@@ -63,43 +86,15 @@
             <div class="p-5">
             <div class="mb-4 border-t border-white"></div>
             <span class="text-white text-sm">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
+            Support Intel Embedded Core i / Pentium / Celeron Solutions 
+Support AMD Form Factor
             </span>
+            <img src={ITXSvg} className="h-[40vh] flex items-center justify-center w-full "/>
+
             </div>
         </div>
 
-        <div class="h-[60vh] rounded-2xl bg-[#0D224B]">
-            <div class="flex justify-between px-8 py-4">
-            <span class="text-white text-lg font-semibold">Mini pc</span>
-            <div class="h-10 w-10 ">
-                <img src={ArrowSvg} alt="" />
-            </div>
-            </div>
-            <div class="p-5">
-            <div class="mb-4 border-t border-white"></div>
-            <span class="text-white text-sm">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-            </span>
-            </div>
-        </div>
-
-        <div class="h-[60vh] rounded-2xl bg-[#0D224B]">
-            <div class="flex justify-between px-8 py-4">
-            <span class="text-white text-lg font-semibold">Mini pc</span>
-            <div class="h-10 w-10 ">
-                <img src={ArrowSvg} alt="" />
-            </div>
-            </div>
-            <div class="p-5">
-            <div class="mb-4 border-t border-white"></div>
-            <span class="text-white text-sm">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.
-            </span>
-            </div>
-        </div>
+       
         </div>
     )
     }

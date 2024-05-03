@@ -1,7 +1,6 @@
 import React from "react"
 import Image from "../images/imageinfo.svg"
-import { Link } from "gatsby";
-
+import { Link } from "gatsby"
 
 function AntiVirusSection() {
   return (
@@ -12,17 +11,19 @@ function AntiVirusSection() {
             Anti virus
           </span>
           <p className="mb-4 mt-3 text-white">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
+            TechIdea antivirus offers comprehensive protection against malware,
+            spyware, ransomware, and more. Our advanced detection algorithms and
+            real-time scanning keep your devices safe and secure, allowing you
+            to browse, shop, and bank online with confidence.
           </p>
           <div className="h-auto w-full text-white">
             <h2 className="text-xl font-semibold">1. Behavior Detection</h2>
             <p>
               Detection types range from very specific hashes to Advanced DNA
-              Detections, which are complex definition of malicious behavior
-              and malware characteristics. We perform deep analysis of the
-              code and extract “genes” that are responsible forints behavior
-              and construct Advanced DNA Scan
+              Detections, which are complex definition of malicious behavior and
+              malware characteristics. We perform deep analysis of the code and
+              extract “genes” that are responsible forints behavior and
+              construct Advanced DNA Scan
             </p>
           </div>
           <div className="h-auto w-full text-white">
@@ -40,8 +41,8 @@ function AntiVirusSection() {
             <p>
               Very effective in preventing new and unknown ransomware from
               encrypting your files! When malicious activity is detected all
-              non=essential program are terminated, stopped malicious software
-              d in it’s tracks.
+              non=essential program are terminated, stopped malicious software d
+              in it’s tracks.
             </p>
           </div>
           <Link to="/antiviruspage">

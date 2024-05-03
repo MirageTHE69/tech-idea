@@ -7,12 +7,11 @@ function Hero() {
       <img src={Bg} alt="" className="absolute inset-0 w-full h-full object-cover" />
       <div className="absolute inset-0 bg-[#08152E] opacity-50"></div>
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-8">
-        <h1 className="text-4xl font-bold text-center md:text-5xl lg:text-6xl">
-          Lorem Ipsum is simply dummy text
+        <h1 className="text-4xl font-bold text-center md:text-5xl lg:text-5xl">
+        Secure Your Digital Life with TechIdea's Antivirus and Mini PC Products
         </h1>
         <p className="text-center md:text-lg lg:text-xl max-w-lg mt-4">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-          has been the industry's standard dummy text
+        Empowering Your Digital Experience with Cutting-Edge Antivirus and Mini PC Solutions from TechIdea
         </p>
         <button className="mt-8 px-6 py-3 bg-[#F4790F] text-white rounded-2xl hover:bg-[#F4790F]">
           Explore our Products

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "gatsby";
 import Logo from "../images/logo.svg";
 
 function Navbar() {
@@ -9,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-white bg-opacity-5 backdrop-blur-md ">
+    <nav className="bg-white bg-opacity-5 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
@@ -18,20 +19,32 @@ function Navbar() {
           </div>
           {/* Menu Items */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-white hover:text-gray-300 no-underline">
+            <Link
+              to="/"
+              className="text-white hover:text-gray-300 no-underline"
+            >
               Home
-            </a>
-            <a href="#" className="text-white hover:text-gray-300 no-underline">
+            </Link>
+            <Link
+              to="/productspage"
+              className="text-white hover:text-gray-300 no-underline"
+            >
               Product
-            </a>
-            <a href="#" className="text-white hover:text-gray-300 no-underline">
-              Contact Us
-            </a>
+            </Link>
+            <Link
+              to="/antiviruspage"
+              className="text-white hover:text-gray-300 no-underline"
+            >
+              Antivirus
+            </Link>
           </div>
           {/* Contact Button */}
-          <button className="hidden md:block border border-white text-white px-4 py-2 rounded hover:bg-white hover:text-black">
+          <Link
+            to="#contact"
+            className="hidden md:block border border-white text-white px-4 py-2 rounded hover:bg-white hover:text-black"
+          >
             Contact Us
-          </button>
+          </Link>
           {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
@@ -64,30 +77,34 @@ function Navbar() {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="flex flex-col items-center mt-4">
-              <a
-                href="#"
+              <Link
+                to="/"
                 className="text-white hover:text-gray-300 no-underline my-2"
                 onClick={toggleMenu}
               >
                 Home
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                to="/productspage"
                 className="text-white hover:text-gray-300 no-underline my-2"
                 onClick={toggleMenu}
               >
                 Product
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                to="/antiviruspage"
                 className="text-white hover:text-gray-300 no-underline my-2"
                 onClick={toggleMenu}
               >
+                Antivirus
+              </Link>
+              <Link
+                to="#contact"
+                className="border border-white text-white px-4 py-2 rounded hover:bg-white hover:text-black my-2"
+                onClick={toggleMenu}
+              >
                 Contact Us
-              </a>
-              <button className="border border-white text-white px-4 py-2 rounded hover:bg-white hover:text-black my-2">
-                Contact Us
-              </button>
+              </Link>
             </div>
           </div>
         )}
