@@ -11,19 +11,13 @@ function AboutSection() {
             Professional Technology Assistance
           </h2>
           <p className="mb-4 text-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare turpis a magna
-            porta, id lobortis purus convallis. Integer nec odio. Praesent libero. Sed cursus ante
-            dapibus diam. Sed nisi.
+          Welcome to TechIdea, where innovation meets convenience. From industry-leading antivirus software to powerful mini PCs, stylish laptops, and even sugar cubes, we're here to simplify your digital experience. With a focus on quality and customer satisfaction, TechIdea is dedicated to providing you with the best-in-class tech solutions
           </p>
           <p className="text-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare turpis a magna
-            porta, id lobortis purus convallis. Integer nec odio. Praesent libero. Sed cursus ante
-            dapibus diam. Sed nisi.
+          With a relentless commitment to quality, innovation, and customer satisfaction, TechIdea stands as your trusted partner in the ever-evolving world of technology. We understand the importance of staying ahead in a fast-paced digital environment. That's why we continuously strive to provide you with cutting-edge solutions that not only meet but exceed your expectations.
           </p>
           <p className="text-white">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare turpis a magna
-            porta, id lobortis purus convallis. Integer nec odio. Praesent libero. Sed cursus ante
-            dapibus diam. Sed nisi.
+          At TechIdea, we're more than just a tech company; we're your gateway to a seamless digital experience. With a mission to simplify your digital life, we offer an array of innovative tech solutions. Our diverse product range includes top-of-the-line antivirus software, powerful mini PCs, sleek laptops, and even sugar cubes.
           </p>
         </div>
       </div>
