@@ -1,5 +1,5 @@
-import React from "react";
-import Bg from "../images/bg.svg";
+import React from "react"
+import Bg from "../images/bg.svg"
 
 function ProductsHero() {
   return (
@@ -10,13 +10,13 @@ function ProductsHero() {
         <h1 className="text-4xl font-bold text-center lg:text-left">
           Our Products
         </h1>
-        <p className="text-center lg:text-left">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text 
+        <p className="text-center lg:text-left text-xl">
+          Discover a world of innovation with Tech Idea. Explore our range of
+          cutting-edge products including laptops, mini PCs, and more.
         </p>
       </div>
     </div>
-  );
+  )
 }
 
-export default ProductsHero;
+export default ProductsHero
