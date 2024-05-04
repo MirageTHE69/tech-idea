@@ -20,17 +20,17 @@ function Contactus() {
               </div>
               <div className="w-full  h-full flex flex-col items-start justify-center gap-3 mt-4">
                 <span className="text-white text-lg font-bold font-Ls">Address</span>
-                <span className="text-white text-sm font-light font-Jost">No: 58 A, East Madison Street, Baltimore, MD, New York 4508</span>
+                <span className="text-white text-sm font-light font-Jost">Plot no 375,sairaj complex,gadmudshingi,tal. karveer,Dist Kolhapur,416119</span>
               </div>
             </div>
             <div className="w-full flex flex-row mt-5">
               <div className="w-[30%] h-full p-1 mt-2">
                 <img src={PhoneSvg} alt="Phone icon" className="w-[40%] h-[40%]" />
               </div>
+            
               <div className="w-full h-full flex flex-col items-start justify-center gap-3">
                 <span className="text-white text-lg font-bold font-Ls">Phone number</span>
-                <span className="text-white text-sm font-light font-Jost">000 – 123 – 456789</span>
-                <span className="text-white text-sm font-light font-Jost">000 – 123 – 456789</span>
+                <span className="text-white text-sm font-light font-Jost">+91 9226331144</span>
               </div>
             </div>
             <div className="w-full flex flex-row mt-5">
@@ -39,8 +39,7 @@ function Contactus() {
               </div>
               <div className="w-full h-full pb-10 sm:pb-0 flex flex-col items-start justify-center gap-3">
                 <span className="text-white text-lg font-bold font-Ls">Email Address</span>
-                <span className="text-white text-sm font-light font-Jost">info@example.com</span>
-                <span className="text-white text-sm font-light font-Jost">info1@example.com</span>
+                <span className="text-white text-sm font-light font-Jost">support@tech-idea.co.in</span>
               </div>
             </div>
           </div>

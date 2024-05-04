@@ -1,14 +1,15 @@
 import React from "react"
 import Image from "../images/imageinfo.svg"
+import AntiVirusPack from "../images/antiviruspacket.svg"
 import { Link } from "gatsby"
 
 function AntiVirusSection() {
   return (
-    <div className="flex items-center p-16">
+    <div className="flex items-center p-20">
       <div className="h-[85%] w-full flex flex-col-reverse lg:flex-row">
         <div className="w-full lg:w-[60%] p-5">
           <span className="text-start text-2xl font-bold text-white">
-            Anti virus
+          Our antivirus the  <span className=" text-[#F4790F]">Antivirous</span> 
           </span>
           <p className="mb-4 mt-3 text-white">
             TechIdea antivirus offers comprehensive protection against malware,
@@ -51,7 +52,7 @@ function AntiVirusSection() {
             </button>
           </Link>
         </div>
-        <img src={Image} alt=" " className="w-full lg:w-auto" />
+        <img src={AntiVirusPack} alt=" " className="w-full  lg:w-auto" />
       </div>
     </div>
   )

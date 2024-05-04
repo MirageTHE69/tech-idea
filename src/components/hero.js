@@ -10,6 +10,9 @@ function Hero() {
         <h1 className="text-4xl font-bold text-center md:text-5xl lg:text-5xl">
         Secure Your Digital Life with TechIdea's Antivirus and Mini PC Products
         </h1>
+        <h1 className="text-4xl font-bold text-center md:text-5xl lg:text-3xl">
+        We make Technology accessible !!!
+        </h1>
         <p className="text-center md:text-lg lg:text-xl max-w-lg mt-4">
         Empowering Your Digital Experience with Cutting-Edge Antivirus and Mini PC Solutions from TechIdea
         </p>
