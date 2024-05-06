@@ -5,6 +5,7 @@
     import SugarCubeSvg from "../images/sugar-cube.png"
     import ITXSvg from "../images/ITX-PC.png"
     import PcSvg from "../images/PC.png"
+    import LaptopSvg from "../images/laptop.png"
 
 
     function ProductSection() {
@@ -91,6 +92,24 @@ Support AMD Form Factor
             </span>
             <img src={ITXSvg} className="h-[40vh] flex items-center justify-center w-full "/>
 
+            </div>
+        </div>
+
+        <div class="h-[60vh]  rounded-2xl bg-[#0D224B]">
+            <div class="flex justify-between px-8 py-4">
+            <span class="text-white text-lg font-semibold"> Tech Idea Laptops</span>
+            <div class="h-10 w-10 ">
+                <img src={ArrowSvg} alt="" />
+            </div>
+            </div>
+            <div class="p-5">
+            <div class="mb-4 border-t border-white"></div>
+            <span class="text-white text-sm">
+            laptops with window 10 and multiple color options wiht intel gemini processor
+            </span>
+            <div className=" w-full h-full flex items-center justify-center">
+            <img src={LaptopSvg} className=" mt-5 lg:mt-10   w-[30vh] h-[30vh] "/>
+            </div>
             </div>
         </div>
 

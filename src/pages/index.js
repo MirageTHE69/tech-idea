@@ -12,6 +12,7 @@ import AntiVirusSection from "../components/antivirusSection"
 import ProductSection from "../components/productsSection"
 import Contactus from "../components/contactUs"
 import Footer from "../components/footer"
+import Team from "../components/team"
 
 
 const IndexPage = () => (
@@ -21,6 +22,7 @@ const IndexPage = () => (
   <AboutSection/>
   <AntiVirusSection/>
   <ProductSection/>
+  <Team/>
   <Contactus/>
   <Footer/>
   

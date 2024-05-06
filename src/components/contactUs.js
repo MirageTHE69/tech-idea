@@ -30,7 +30,7 @@ function Contactus() {
             
               <div className="w-full h-full flex flex-col items-start justify-center gap-3">
                 <span className="text-white text-lg font-bold font-Ls">Phone number</span>
-                <span className="text-white text-sm font-light font-Jost">+91 9226331144</span>
+                <span className="text-white text-sm font-light font-Jost">+91 93252 62697</span>
               </div>
             </div>
             <div className="w-full flex flex-row mt-5">
@@ -39,7 +39,7 @@ function Contactus() {
               </div>
               <div className="w-full h-full pb-10 sm:pb-0 flex flex-col items-start justify-center gap-3">
                 <span className="text-white text-lg font-bold font-Ls">Email Address</span>
-                <span className="text-white text-sm font-light font-Jost">support@tech-idea.co.in</span>
+                <span className="text-white text-sm font-light font-Jost">contact@tech-idea.co.in</span>
               </div>
             </div>
           </div>

@@ -12,7 +12,7 @@ function ProductsHero() {
         </h1>
         <p className="text-center lg:text-left text-xl">
           Discover a world of innovation with Tech Idea. Explore our range of
-          cutting-edge products including laptops, mini PCs, and more.
+          cutting-edge products including mini pc, laptops solutions from Tech idea
         </p>
       </div>
     </div>
