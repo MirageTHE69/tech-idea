@@ -1,6 +1,6 @@
 import React from "react"
 import Team1 from "../images/partner1.jpg"
-import Team2 from "../images/partner2.png"
+import Team2 from "../images/patner2.jpg"
 
 function Team() {
   return (
@@ -10,7 +10,7 @@ function Team() {
       </span>
       <div class="  px-10 py-10 flex  flex-col lg:flex-row item-center justify-center w-full gap-5 ">
         <div class=" sm:w-[40%] lg:w-[30%] lg:h-[50vh] sm:h-[40vh]  ">
-          <img src={Team1} className=" w-full h-full rounded-lg" />
+          <img src={Team1} className=" h-full w-full rounded-lg  object-center" />
         </div>
         <div class="  h-full  flex flex-col ">
           <span class=" font-bold text-2xl text-[#F4790F] mb-5">
@@ -33,7 +33,7 @@ function Team() {
 
       <div class="  px-10 py-10 flex flex-col    lg:flex-row-reverse item-center justify-center w-full gap-5  ">
         <div class=" sm:w-[40%] lg:w-[30%] lg:h-[50vh] sm:h-[40vh]  ">
-          <img src={Team2} className=" w-full h-full rounded-lg" />
+          <img src={Team2} className=" w-full h-full rounded-lg object-center" />
         </div>
         <div class="  h-full  flex flex-col ">
           <span class=" font-bold text-2xl text-[#F4790F] mb-5">
