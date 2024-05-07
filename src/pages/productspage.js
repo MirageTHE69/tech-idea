@@ -83,7 +83,7 @@ function ProductPage() {
         specs2="PROCCER N4020"
         specs3="In built mic and 2 mp camera"
         specs4="card reader and usb support port"
-        color="black metal / golder / grey"
+        color="black metal / golden / grey"
         cpu="Intel Gemini lake N4020"
         memory="4GB"
         storage="128GB SSD"

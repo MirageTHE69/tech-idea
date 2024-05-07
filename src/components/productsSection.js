@@ -10,7 +10,7 @@
 
     function ProductSection() {
     return (
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 p-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 p-10 font-Monrope">
         <div class="h-[60vh] rounded-2xl">
             <div class="flex justify-between flex-col px-8 py-4">
             <span className=" text-[#F4790F]  text-2xl ">Our Products</span>

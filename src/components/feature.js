@@ -30,7 +30,7 @@ function FeatureSection() {
   ];
 
   return (
-    <div className="min-w-screen h-auto p-20">
+    <div className="min-w-screen h-auto p-20 font-Monrope">
       <span className="w-full items-center flex justify-center text-lg text-[#F4790F]">
         Explore Feature
       </span>

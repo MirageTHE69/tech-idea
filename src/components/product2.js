@@ -4,7 +4,7 @@ import MiniSvg2 from '../images/minipc2.svg';
 
 function Product2({name,disp,specs1,specs2,specs3,specs4,color,cpu,memory,storage,interfaces,io,wifi,os,img1,img2}) {
   return (
-    <div className="flex flex-col-reverse lg:flex-row-reverse p-10 items-center justify-center">
+    <div className="flex flex-col-reverse lg:flex-row-reverse p-10 items-center justify-center font-Monrope">
 
       {/* Product Description */}
       <div className="lg:w-1/2 flex flex-col text-white p-8 gap-4">
@@ -81,12 +81,12 @@ function Product2({name,disp,specs1,specs2,specs3,specs4,color,cpu,memory,storag
       </div>
 
       {/* Product Images */}
-      <div className="lg:w-1/2 bg-[#0D224B] h-[60vh] lg:h-auto flex lg:flex-col p-5 lg:p-0 lg:gap-0 gap-10 items-center justify-center rounded-3xl">
-  <div className="w-[80%] lg:w-full flex justify-center">
-    <img src={img1} className="object-cover max-w-full lg:h-[50vh] pt-5" alt="Mini PC 1" />
+      <div className="lg:w-1/2 bg-[#0D224B] h-[60vh] lg:h-auto flex flex-col lg:flex-col px-16 p-5 lg:p-0 lg:gap-0 gap-10 items-center justify-center rounded-3xl">
+  <div className=" lg:w-full flex justify-center ">
+    <img src={img1} className="object-cover max-w-full h-[20vh] lg:h-[50vh]  pt-5" alt="Mini PC 1" />
   </div>
-  <div className="w-[80%] lg:w-full flex justify-center">
-    <img src={img2} className="object-cover max-w-full lg:h-[50vh]" alt="Mini PC 2" />
+  <div className=" lg:w-full flex justify-center">
+    <img src={img2} className="object-cover max-w-full h-[20vh] lg:h-[50vh]" alt="Mini PC 2" />
   </div>
 </div>
 

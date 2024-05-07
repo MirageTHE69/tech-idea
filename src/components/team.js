@@ -4,7 +4,7 @@ import Team2 from "../images/patner2.jpg"
 
 function Team() {
   return (
-    <div class=" w-screen bg-[#08152E]">
+    <div class=" w-screen bg-[#08152E] font-Monrope">
       <span className=" w-full text-3xl font-bold text-white flex items-center justify-center mb-10">
         Our Team
       </span>
@@ -14,7 +14,7 @@ function Team() {
         </div>
         <div class="  h-full  flex flex-col ">
           <span class=" font-bold text-2xl text-[#F4790F] mb-5">
-            Harvardan Bhosale
+          Harshvardhan bhosale
           </span>
           <span class=" font-base text-xl text-[#F4790F] mb-10">
           Finance Director, Tech Idea
@@ -37,7 +37,7 @@ function Team() {
         </div>
         <div class="  h-full  flex flex-col ">
           <span class=" font-bold text-2xl text-[#F4790F] mb-5">
-            Vijayendra Salaunke
+          Vijayendra Salunkhe
           </span>
           <span class=" font-base text-xl text-[#F4790F] mb-10">
           Sales Director, Tech Idea

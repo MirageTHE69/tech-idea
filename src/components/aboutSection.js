@@ -3,7 +3,7 @@ import AboutImage from "../images/aboutImage.svg"
 
 function AboutSection() {
   return (
-    <div className="min-h-screen flex flex-col lg:flex-row-reverse lg:gap-10 items-center justify-center py-10 px-4 lg:px-0">
+    <div className="min-h-screen flex flex-col lg:flex-row-reverse lg:gap-10 items-center justify-center py-10 px-4 lg:px-0  font-Monrope">
       <div className="w-full lg:w-1/3 px-4 mb-10 lg:mb-0">
         <div className="text-center lg:text-left">
           <span className="text-[#F4790F] text-sm block mb-2">About Us</span>
