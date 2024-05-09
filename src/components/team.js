@@ -21,7 +21,7 @@ function Team() {
 
           </span>
           <p class=" text-white font-medium">
-            Harvardan Bhosale is the Finance Director at Tech Idea, with
+          Harshvardhan bhosale is the Finance Director at Tech Idea, with
             extensive experience in finance and accounting. With his strategic
             thinking, he oversees financial management, including budgeting and
             compliance. Harvardan's leadership drives financial growth,
@@ -45,7 +45,7 @@ function Team() {
 
           </span>
           <p class=" text-white font-medium">
-            Vijayendra Salaunke, Sales Director at Tech Idea, brings over 15
+          Vijayendra Salunkhe, Sales Director at Tech Idea, brings over 15
             years of expertise in both hardware and software solutions. With a
             deep understanding of IT products, he drives sales growth and
             fosters client relationships. Vijayendra's broad knowledge makes him

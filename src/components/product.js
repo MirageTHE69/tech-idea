@@ -1,8 +1,6 @@
 import React from "react";
-import MiniSvg1 from '../images/minipc1.svg';
-import MiniSvg2 from '../images/minipc2.svg';
 
-function Product({name,disp,specs1,specs2,specs3,specs4,color,cpu,memory,storage,interfaces,io,wifi,os,img1,img2}) {
+function Product({ name, disp, specs1, specs2, specs3, specs4, color, cpu, memory, storage, interfaces, io, wifi, os, img1, img2 }) {
   return (
     <div className="flex flex-col lg:flex-row p-10 items-center justify-center font-Monrope">
 
@@ -81,18 +79,24 @@ function Product({name,disp,specs1,specs2,specs3,specs4,color,cpu,memory,storage
       </div>
 
       {/* Product Images */}
-      <div className="lg:w-1/2  bg-[#0D224B] h-[60vh] lg:h-auto flex flex-col lg:flex-col px-16 lg:p-0 lg:gap-0 gap-10 items-center justify-center rounded-3xl">
-  <div className="w-full  lg:w-full flex justify-center">
-    <img src={img1} className="object-cover max-w-full h-[30vh] lg:h-[50vh] pt-5" alt="Mini PC 1" />
-  </div>
-  <div className="w-full lg:w-full flex justify-center">
-    <img src={img2} className="object-cover max-w-full h-[30vh] lg:h-[50vh]" alt="Mini PC 2" />
-  </div>
+      <div className="flex flex-col lg:flex-row gap-10 lg:w-1/2 p-10 items-center justify-center">
+
+{/* First Product Image */}
+<div className="lg:w-1/2 h-[40vh] lg:h-auto flex flex-col lg:p-0 lg:gap-10 gap-10 items-center justify-center rounded-3xl bg-[#0D224B] ">
+<div className="w-full lg:w-full flex justify-center p-5   ">
+<img src={img1} className="object-contain w-full h-full" alt="Mini PC 1" />
+</div>
 </div>
 
 
+{/* Second Product Image */}
+<div className="lg:w-1/2 h-[40vh] lg:h-auto flex flex-col lg:p-0 lg:gap-10 gap-10 items-center justify-center rounded-3xl bg-[#0D224B] ">
+<div className="w-full lg:w-full flex justify-center p-5  mt-3">
+<img src={img2} className="object-contain w-full h-full" alt="Mini PC 1" />
+</div>
+</div>
 
-
+</div>
     </div>
   );
 }

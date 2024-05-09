@@ -15,8 +15,10 @@ function Navbar() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <img src={Logo} alt="Logo" className="h-16 pt-3" />
-          </div>
+        <Link to="/">
+          <img src={Logo} alt="Logo" className="h-16 pt-3" />
+        </Link>
+      </div>
           {/* Menu Items */}
           <div className="hidden md:flex items-center space-x-8">
             <Link
