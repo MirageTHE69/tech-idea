@@ -8,7 +8,7 @@ function AntivirusHero() {
       <div className="absolute inset-0 bg-[#08152E] opacity-50"></div>
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
         <h1 className="text-4xl lg:text-6xl font-bold text-center">
-          TotalTech security Antivirous
+          TotalTech Security Antivirous
         </h1>
         <p className="text-center text-lg lg:text-xl max-w-3xl px-4">
           Tech Idea antivirus offers comprehensive protection against malware,
