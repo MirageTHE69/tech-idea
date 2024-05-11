@@ -8,12 +8,12 @@ function Team() {
       <span className=" w-full text-3xl font-bold text-white flex items-center justify-center mb-10">
         Our Team
       </span>
-      <div class="  px-10 py-10 flex  flex-col lg:flex-row item-center justify-center w-full gap-5 ">
+      <div class="  px-10 py-10 flex   flex-col lg:flex-row item-center justify-center w-full gap-5 ">
         <div class=" sm:w-[40%] lg:w-[30%] lg:h-[50vh] sm:h-[40vh]  ">
           <img src={Team1} className=" h-full w-full rounded-lg  object-center" />
         </div>
-        <div class="  h-full  flex flex-col ">
-          <span class=" font-bold text-2xl text-[#F4790F] mb-5">
+        <div class="  h-full mt-16 flex flex-col ">
+          <span class=" font-bold text-2xl  text-[#F4790F] mb-5">
           Harshvardhan bhosale
           </span>
           <span class=" font-base text-xl text-[#F4790F] mb-10">
@@ -35,11 +35,11 @@ function Team() {
         <div class=" sm:w-[40%] lg:w-[30%] lg:h-[50vh] sm:h-[40vh]  ">
           <img src={Team2} className=" w-full h-full rounded-lg object-center" />
         </div>
-        <div class="  h-full  flex flex-col ">
-          <span class=" font-bold text-2xl text-[#F4790F] mb-5">
+        <div class="  h-full mt-16 flex flex-col ">
+          <span class=" font-bold text-2xl text-right mr-16 text-[#F4790F] mb-5">
           Vijayendra Salunkhe
           </span>
-          <span class=" font-base text-xl text-[#F4790F] mb-10">
+          <span class=" font-base text-xl text-right mr-16 text-[#F4790F] mb-10">
           Sales Director, Tech Idea
 
 
