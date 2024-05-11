@@ -33,46 +33,46 @@ function Product({ name, disp, specs1, specs2, specs3, specs4, color, cpu, memor
         <span className="text-xl mt-5">Specification</span>
         <div className="flex flex-col  mt-3">
           <div className="flex flex-row">
-            <div className="rounded-full  w-16 text-start">Color</div>
+            <div className="rounded-full w-16 text-start">Color</div>
             <span className="ml-3">{color}</span>
           </div>
 
           <div className="flex flex-row">
-            <div className="rounded-full  w-16 text-start">CPU</div>
+            <div className="rounded-full w-16 text-start">CPU</div>
             <span className="ml-3">
-             {cpu}
+              {cpu}
             </span>
           </div>
 
           <div className="flex flex-row">
-            <div className="rounded-full  w-16 text-start">Memory</div>
+            <div className="rounded-full w-16 text-start">Memory</div>
             <span className="ml-3">{memory}</span>
           </div>
 
           <div className="flex flex-row">
-            <div className="rounded-full  w-16 text-start">Storage</div>
+            <div className="rounded-full w-16 text-start">Storage</div>
             <span className="ml-3">{storage}</span>
           </div>
 
           <div className="flex flex-row">
-            <div className="rounded-full  w-16 text-start">Interface</div>
+            <div className="rounded-full w-16 text-start">Interface</div>
             <span className="ml-3">{interfaces}</span>
           </div>
 
           <div className="flex flex-row">
-            <div className="rounded-full  w-16 text-start">IO Ports</div>
+            <div className="rounded-full w-16 text-start">IO Ports</div>
             <span className="ml-3">{io}</span>
           </div>
 
           <div className="flex flex-row">
-            <div className="rounded-full  w-16 text-start">WIFI & BT</div>
+            <div className="rounded-full w-16 text-start">WIFI & BT</div>
             <span className="ml-3">{wifi}</span>
           </div>
 
           <div className="flex flex-row">
-            <div className="rounded-full  w-16 text-start">Support OS</div>
+            <div className="rounded-full w-16 text-start">Support OS</div>
             <span className="ml-3">
-             {os}
+              {os}
             </span>
           </div>
         </div>
@@ -81,22 +81,21 @@ function Product({ name, disp, specs1, specs2, specs3, specs4, color, cpu, memor
       {/* Product Images */}
       <div className="flex flex-col lg:flex-row gap-10 lg:w-1/2 p-10 items-center justify-center">
 
-{/* First Product Image */}
-<div className="lg:w-1/2 sm:h-auto  lg:h-auto flex flex-col lg:p-0 lg:gap-10 gap-10 items-center justify-center rounded-3xl bg-[#0D224B] ">
-<div className="w-full lg:w-full flex justify-center p-5   ">
-<img src={img1} className="object-contain w-full h-full" alt="Mini PC 1" />
-</div>
-</div>
+        {/* First Product Image */}
+        <div className="lg:w-1/2 sm:h-auto lg:h-auto flex flex-col lg:p-0 lg:gap-10 gap-10 items-center justify-center rounded-3xl bg-[#0D224B] ">
+          <div className="w-full lg:w-full flex justify-center p-5">
+            <img src={img1} className="object-contain w-full h-full" alt="Mini PC 1" />
+          </div>
+        </div>
 
+        {/* Second Product Image */}
+        <div className="lg:w-1/2 sm:h-auto lg:h-auto flex flex-col lg:p-0 lg:gap-10 gap-10 items-center justify-center rounded-3xl bg-[#0D224B] ">
+          <div className="w-full lg:w-full flex justify-center p-5 mt-3">
+            <img src={img2} className="object-contain w-full h-full" alt="Mini PC 1" />
+          </div>
+        </div>
 
-{/* Second Product Image */}
-<div className="lg:w-1/2  sm:h-auto lg:h-auto flex flex-col lg:p-0 lg:gap-10 gap-10 items-center justify-center rounded-3xl bg-[#0D224B] ">
-<div className="w-full lg:w-full flex justify-center p-5  mt-3">
-<img src={img2} className="object-contain w-full h-full" alt="Mini PC 1" />
-</div>
-</div>
-
-</div>
+      </div>
     </div>
   );
 }
