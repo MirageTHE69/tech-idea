@@ -82,17 +82,17 @@ function Product({ name, disp, specs1, specs2, specs3, specs4, color, cpu, memor
       <div className="flex flex-col lg:flex-row gap-10 lg:w-1/2 p-10 items-center justify-center">
 
         {/* First Product Image */}
-        <div className="lg:w-1/2 h-[40vh] lg:h-auto flex flex-col lg:p-0 lg:gap-10 gap-10 items-center justify-center rounded-3xl bg-[#0D224B] ">
-  <div className="w-full lg:w-full flex justify-center p-5 py-10 mt-3  ">
+        <div className="lg:w-1/2 sm:h-[80vh] lg:h-auto flex flex-col lg:p-0 lg:gap-10 gap-10 items-center justify-center rounded-3xl bg-[#0D224B] ">
+  <div className="w-full lg:w-full flex justify-center p-5 py-5 mt-3  ">
     <img src={img1} className="object-contain w-full h-full" alt="Mini PC 1" />
   </div>
 </div>
 
 
         {/* Second Product Image */}
-        <div className="lg:w-1/2 h-[40vh] lg:h-auto flex flex-col lg:p-0 lg:gap-10 gap-10 items-center justify-center rounded-3xl bg-[#0D224B] ">
-  <div className="w-full lg:w-full flex justify-center p-5 py-10  mt-3">
-    <img src={img2} className="object-contain w-full h-full" alt="Mini PC 1" />
+        <div className="lg:w-1/2 sm:h-auto  lg:h-auto flex flex-col lg:p-0 lg:gap-10 gap-10 items-center justify-center rounded-3xl bg-[#0D224B] ">
+  <div className=" w-full  lg:w-full flex justify-center p-5 py-10  mt-3">
+    <img src={img2} className="object-contain  w-full h-full" alt="Mini PC 1" />
   </div>
 </div>
 

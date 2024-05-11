@@ -21,9 +21,6 @@ function Footer() {
         <div className="w-full  flex flex-col sm:flex-row justify-between items-center mt-8">
           <span className="text-xs text-center sm:text-left">
             © 2024 Tech-idea. All Rights Reserved
-            <a href="https://innvoket.com" className="text-white">
-              innvoket.com
-            </a>
           </span>
 
           <div className="flex flex-row item-center justify-center gap-5 mt-5 sm:mt-5">
