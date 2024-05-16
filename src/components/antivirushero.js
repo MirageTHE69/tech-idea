@@ -11,8 +11,7 @@ function AntivirusHero() {
           TotalTech Security Antivirous
         </h1>
         <p className="text-center text-lg lg:text-xl max-w-3xl px-4">
-          Tech Idea antivirus offers comprehensive protection against malware,
-          spyware, ransomware, and more.
+        Tech Idea Antivirous Offers Comprehensive Protection Against Malware,Spyware Ramsonware, and  more
         </p>
       </div>
     </div>

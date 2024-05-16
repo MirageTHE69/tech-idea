@@ -14,7 +14,7 @@ function Hero() {
         We make Technology accessible !!!
         </h1>
         <p className="text-center md:text-lg lg:text-xl max-w-lg mt-4 font-Monrope">
-        Empowering Your Digital Experience with Cutting-Edge Antivirus and Mini PC Solutions from TechIdea
+        Empowering Your Digital Experience with Cutting-Edge Antivirus and Mini PC and Laptops Solutions from TechIdea
         </p>
         <button className="mt-8 px-6 py-3 bg-[#F4790F] text-white rounded-2xl hover:bg-[#F4790F] font-Monrope">
           Explore our Products

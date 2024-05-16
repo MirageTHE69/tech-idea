@@ -10,10 +10,11 @@ function ProductsHero() {
         <h1 className="text-4xl font-bold text-center lg:text-left">
           Our Products
         </h1>
-        <p className="text-center lg:text-left text-xl">
-          Discover a world of innovation with Tech Idea. Explore our range of
-          cutting-edge products including mini pc, laptops solutions from Tech idea
-        </p>
+        <p className="  w-full text-center lg:text-left text-xl">
+  Discover a World of Innovation with Tech Idea.
+  Explore our range of <br/> cutting-edge products,
+  including Mini Pc, laptops solutions from Tech Idea
+</p>
       </div>
     </div>
   )

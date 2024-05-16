@@ -25,24 +25,24 @@ function Navbar() {
               to="/"
               className="text-white hover:text-gray-300 no-underline"
             >
-              Home
+              HOME
             </Link>
             <Link
               to="/productspage"
               className="text-white hover:text-gray-300 no-underline"
             >
-              Product
+              PRODUCT
             </Link>
             <Link
               to="/antiviruspage"
               className="text-white hover:text-gray-300 no-underline"
             >
-              Antivirus
+              ANTIVIRUS
             </Link>
           </div>
           {/* Contact Button */}
           <Link
-            to="#contact"
+            to="/#contact"
             className="hidden md:block border border-white text-white px-4 py-2 rounded hover:bg-white hover:text-black"
           >
             Contact Us
