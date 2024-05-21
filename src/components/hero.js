@@ -8,7 +8,7 @@ function Hero() {
       <div className="absolute inset-0 bg-[#08152E] opacity-50"></div>
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-8">
         <h1 className="text-4xl font-bold text-center md:text-5xl lg:text-5xl">
-        Secure Your Digital Life with TechIdea's Antivirous, laptops and mini pc
+        Secure Your Digital Life with TechIdea's Antivirus, laptops and mini pc
         </h1>
         <h1 className="text-4xl font-bold text-center md:text-5xl lg:text-3xl font-Monrope  ">
         We make Technology accessible !!!

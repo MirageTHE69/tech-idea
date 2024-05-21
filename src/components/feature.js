@@ -35,7 +35,7 @@ function FeatureSection() {
         Explore Feature
       </span>
       <span className="w-auto items-center  flex justify-center text-base  lg:text-3xl mt-6 font-semibold text-white">
-      Antivirous Products Features
+      Antivirus Products Features
       </span>
       <div className="grid grid-cols-1 gap-4 p-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
         {texts.map((text, index) => (

@@ -9,7 +9,7 @@ function AntiVirusSection() {
       <div className="h-[85%] w-full flex flex-col-reverse lg:flex-row">
         <div className="w-full lg:w-[60%] p-5">
           <span className="text-start text-2xl font-bold text-white">
-          Our  <span className=" text-[#F4790F]">Antivirous</span> 
+          Our  <span className=" text-[#F4790F]">Antivirus</span> 
           </span>
           <p className="mb-4 mt-3 text-white">
             TechIdea antivirus offers comprehensive protection against malware,
