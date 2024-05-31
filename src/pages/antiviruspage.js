@@ -4,6 +4,7 @@ import AntivirusHero from "../components/antivirushero";
 import FeatureSection from "../components/feature";
 import AntiVirusSection from "../components/antivirusSection";
 import Footer from "../components/footer";
+import AntivirusCard from "../components/antivirusCard";
 
 
 function Antiviruspage(){
@@ -13,6 +14,7 @@ function Antiviruspage(){
             <AntivirusHero/>
             <FeatureSection/>
             <AntiVirusSection/>
+            <AntivirusCard/>
             <Footer/>
 
         </div>

@@ -41,3 +41,15 @@
       box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.5); /* Increased box-shadow size */
     }
   }
+
+  .dot {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  /* Hide dots on small screens */
+  @media (max-width: 767px) {
+    .dot {
+      display: none;
+    }
+  }
