@@ -67,7 +67,7 @@ function AntivirusCard() {
       {/* 14-Day Free Trial Section */}
       <div className="p-6 md:p-8 rounded-lg w-full text-center flex flex-col items-center justify-center mt-6 md:mt-8">
         <span className="block text-2xl md:text-5xl font-semibold mb-8 text-[#F4790F]">14-Day Free Trial</span>
-        <a href="/Total_Tech_Security_Setup.exe" download>
+        <a href="https://nextview-setup-files1.s3.eu-north-1.amazonaws.com/Total_Tech_Security_Setup.exe" download>
           <button className="bg-[#F4790F] text-white px-4 py-2 md:px-6 md:py-3 rounded-lg font-semibold hover:bg-[#e2680c] transition duration-300">
             Download Now
           </button>
