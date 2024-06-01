@@ -12,7 +12,7 @@ function Contactus() {
   };
 
   return (
-    <div id="contact" className="pb-10 sm:mt-16 sm:pb-0 sm:h-[70%] flex items-center justify-center">
+    <div id="contact" className="pb-10 sm:mt-16 sm:pb-0 sm:h-[70%] flex items-center justify-center font-mono">
       <div className="w-[85%] h-auto sm:h-[95%] bg-[#15206D] rounded-[20px] flex flex-col sm:flex-row">
         <div className="w-full sm:w-[50%] h-[50%] sm:h-auto">
           <img src={Map} alt="Map" className="sm:rounded-l-[20px] h-full w-full object-cover" />

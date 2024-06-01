@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Monrope';
-    src: url('../styles//Manrope-Medium.woff2');
+    font-family: 'Montserrat';
+    src: url('../styles//Montserrat-Regular.woff2');
 }
 
 body{
-    font-family: 'Monrope',sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }

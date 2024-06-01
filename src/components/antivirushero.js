@@ -3,7 +3,7 @@ import Bg from "../images/bg.svg"
 
 function AntivirusHero() {
   return (
-    <div className="min-w-screen h-[70vh] lg:h-[70vh] bg-[#08152e] relative font-Monrope">
+    <div className="min-w-screen h-[70vh] lg:h-[70vh] bg-[#08152e] relative font-mono">
       <img src={Bg} alt="" className="h-full w-full object-cover" />
       <div className="absolute inset-0 bg-[#08152E] opacity-50"></div>
       <div className="absolute inset-0 flex flex-col items-center justify-center text-white">

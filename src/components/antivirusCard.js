@@ -2,7 +2,7 @@ import React from "react"
 
 function AntivirusCard() {
   return (
-    <div className="flex flex-col items-center justify-center p-6 md:p-10 font-Monrope bg-gradient-to-r from-[#0d2b4b] to-[#142c52] text-white rounded-3xl shadow-lg">
+    <div className="flex flex-col items-center justify-center p-6 md:p-10 font-mono bg-gradient-to-r from-[#0d2b4b] to-[#142c52] text-white rounded-3xl shadow-lg">
       <h2 className="text-3xl md:text-4xl font-bold text-[#F4790F] mb-6 md:mb-8">
         Antivirus Information
       </h2>

@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 
 function AntiVirusSection() {
   return (
-    <div className="flex items-center p-20 font-Monrope">
+    <div className="flex items-center p-20 font-mono ">
       <div className="h-[85%] w-full flex flex-col-reverse lg:flex-row">
         <div className="w-full lg:w-[60%] p-5">
           <span className="text-start text-2xl font-bold text-white">

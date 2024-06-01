@@ -6,7 +6,7 @@ import LinkedInIcon from "../images/linkedin_footer.svg" // Import LinkedIn icon
 
 function Footer() {
   return (
-    <div className=" h-auto sm:h-[40%] w-screen bg-[#0D224B] text-white rounded-se-large p-6 sm:p-20 mt-16">
+    <div className=" h-auto sm:h-[40%] w-screen bg-[#0D224B] text-white rounded-se-large p-6 sm:p-20 mt-16 font-mono">
       <div className="flex flex-col justify-center items-center h-full">
         <img src={LogoSvg} alt="Logo" className="h-18 w-18 mb-5 mt-6" />
 

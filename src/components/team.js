@@ -4,7 +4,7 @@ import Team2 from "../images/patner2.jpg"
 
 function Team() {
   return (
-    <div class=" w-screen bg-[#08152E] font-Monrope">
+    <div class=" w-screen bg-[#08152E] font-mono">
       <span className=" w-full text-3xl font-bold text-white flex items-center justify-center mb-10">
         Our Team
       </span>
