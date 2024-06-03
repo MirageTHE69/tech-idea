@@ -96,7 +96,7 @@ function AntivirusCard() {
           14-Day Free Trial
         </span>
         <a
-          href="https://tech-idea.s3.eu-north-1.amazonaws.com/Total_Tech_Security_Setup+(1).exe"
+          href="https://drive.google.com/file/d/1_3Ys4GoZmVv8_OsfH9dV-TVMfRmERtir/view?usp=drive_link"
           download
         >
           <button className="bg-[#F4790F] text-white px-4 py-2 md:px-6 md:py-3 rounded-lg font-semibold hover:bg-[#e2680c] transition duration-300">

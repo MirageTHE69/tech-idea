@@ -1,6 +1,6 @@
 import React from "react"
 import Team1 from "../images/partner1.jpg"
-import Team2 from "../images/patner2.jpg"
+import Team2 from "../images/partner.png"
 
 function Team() {
   return (

@@ -1,6 +1,6 @@
 import React from "react"
 import Image from "../images/imageinfo.svg"
-import AntiVirusPack from "../images/package.svg"
+import AntiVirusPack from "../images/pack.png"
 import { Link } from "gatsby"
 
 function AntiVirusSection() {
