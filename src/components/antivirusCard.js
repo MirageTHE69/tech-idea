@@ -54,7 +54,7 @@ function AntivirusCard() {
           </h3>
           <ul className="grid grid-cols-1 gap-2 list-none mb-8 text-lg text-left">
             <li className="flex items-start">
-              <span className="dot bg-[#F4790F] rounded-full w-3 h-3 mt-1 mr-2"></span>
+              <span className="dot bg-[#F4790F] rounded-full w-3 h-3 mt-2 mr-2"></span>
               <span>
                 Microsoft Windows 11 Home / Pro
                 <br />
@@ -62,27 +62,27 @@ function AntivirusCard() {
               </span>
             </li>
             <li className="flex items-start">
-              <span className="dot bg-[#F4790F] rounded-full w-3 h-3 mt-1 mr-2"></span>
+              <span className="dot bg-[#F4790F] rounded-full w-3 h-3 mt-2 mr-2"></span>
               <span>
                 Microsoft Windows 10 Home / Pro / Enterprise / Education - 32 /
                 64-bit
               </span>
             </li>
             <li className="flex items-start">
-              <span className="dot bg-[#F4790F] rounded-full w-3 h-3 mt-1 mr-2"></span>
+              <span className="dot bg-[#F4790F] rounded-full w-3 h-3 mt-2 mr-2"></span>
               <span>
                 Microsoft Windows 8.1 / Pro / Enterprise - 32 / 64-bit
               </span>
             </li>
             <li className="flex items-start">
-              <span className="dot bg-[#F4790F] rounded-full w-3 h-3 mt-1 mr-2"></span>
+              <span className="dot bg-[#F4790F] rounded-full w-3 h-3 mt-2 mr-2"></span>
               <span>Microsoft Windows 8 / Pro / Enterprise - 32 / 64-bit</span>
             </li>
             <li className="flex items-start">
-              <span className="dot bg-[#F4790F] rounded-full w-3 h-3 mt-1 mr-2"></span>
+              <span className="dot bg-[#F4790F] rounded-full w-3 h-3 mt-2 mr-2"></span>
               <span>
                 Microsoft Windows 7 Home Basic / Home Premium /<br />{" "}
-                Professional / Enterprise / Ultimate - Service Pack 1 with
+                Professional / Enterprise / Ultimate - Service Pack 1 with<br />
                 Convenient Rollup Update, 32 / 64-bit
               </span>
             </li>
