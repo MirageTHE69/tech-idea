@@ -13,6 +13,8 @@ import ProductSection from "../components/productsSection"
 import Contactus from "../components/contactUs"
 import Footer from "../components/footer"
 import Team from "../components/team"
+import AntivirusCard from "../components/antivirusCard"
+
 
 
 const IndexPage = () => (
@@ -21,6 +23,7 @@ const IndexPage = () => (
   <Hero/>
   <AboutSection/>
   <AntiVirusSection/>
+  <AntivirusCard/>
   <ProductSection/>
   <Team/>
   <Contactus/>
