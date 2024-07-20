@@ -16,9 +16,14 @@ function Hero() {
         <p className="text-center md:text-lg lg:text-xl max-w-lg mt-4 font-mono">
         Empowering Your Digital Experience with Cutting-Edge Antivirus and Mini PC and Laptops Solutions from TechIdea
         </p>
+        <a
+          href="https://dl.jrdesklabs.com/Tech-Idea/18th-July-2024/TechSecurity.exe"
+          download
+        >
         <button className="mt-8 px-6 py-3 bg-[#F4790F] text-white rounded-2xl hover:bg-[#F4790F] font-mono">
-          Explore our Products
+          Download Antivirus
         </button>
+        </a>
       </div>
     </div>
   );
