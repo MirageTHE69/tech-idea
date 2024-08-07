@@ -1,6 +1,7 @@
 import React from "react"
 import Team1 from "../images/partner1.jpg"
 import Team2 from "../images/partner.png"
+import Team3 from "../images/team3.jpg"
 
 function Team() {
   return (
@@ -10,18 +11,20 @@ function Team() {
       </span>
       <div class="  px-10 py-10 flex   flex-col lg:flex-row item-center justify-center w-full gap-5 ">
         <div class=" sm:w-[40%] lg:w-[30%] lg:h-[50vh] sm:h-[40vh]  ">
-          <img src={Team1} className=" h-full w-full rounded-lg  object-center" />
+          <img
+            src={Team1}
+            className=" h-full w-full rounded-lg  object-center"
+          />
         </div>
         <div class="  h-full mt-16 flex flex-col ">
           <span class=" font-bold text-2xl  text-[#F4790F] mb-5">
-          Harshvardhan bhosale
+            Harshvardhan bhosale
           </span>
           <span class=" font-base text-xl text-[#F4790F] mb-10">
-          Finance Director, Tech Idea
-
+            Finance Director, Tech Idea
           </span>
           <p class=" text-white font-medium">
-          Harshvardhan bhosale is the Finance Director at Tech Idea, with
+            Harshvardhan bhosale is the Finance Director at Tech Idea, with
             extensive experience in finance and accounting. With his strategic
             thinking, he oversees financial management, including budgeting and
             compliance. Harvardan's leadership drives financial growth,
@@ -33,24 +36,51 @@ function Team() {
 
       <div class="  px-10 py-10 flex flex-col    lg:flex-row-reverse item-center justify-center w-full gap-5  ">
         <div class=" sm:w-[40%] lg:w-[30%] lg:h-[50vh] sm:h-[40vh]  ">
-          <img src={Team2} className=" w-full h-full rounded-lg object-center" />
+          <img
+            src={Team2}
+            className=" w-full h-full rounded-lg object-center"
+          />
         </div>
         <div class="  h-full mt-16 flex flex-col ">
           <span class=" font-bold text-2xl text-right mr-16 text-[#F4790F] mb-5">
-          Vijayendra Salunkhe
+            Vijayendra Salunkhe
           </span>
           <span class=" font-base text-xl text-right mr-16 text-[#F4790F] mb-10">
-          Sales Director, Tech Idea
-
-
+            Sales Director, Tech Idea
           </span>
           <p class=" text-white font-medium">
-          Vijayendra Salunkhe, Sales Director at Tech Idea, brings over 15
+            Vijayendra Salunkhe, Sales Director at Tech Idea, brings over 15
             years of expertise in both hardware and software solutions. With a
             deep understanding of IT products, he drives sales growth and
             fosters client relationships. Vijayendra's broad knowledge makes him
             an asset in delivering customized IT solutions, strengthening Tech
             Idea's position in the tech market
+          </p>
+        </div>
+      </div>
+
+      <div class="  px-10 py-10 flex   flex-col lg:flex-row item-center justify-center w-full gap-5 ">
+        <div class=" sm:w-[40%] lg:w-[30%] lg:h-[50vh] sm:h-[40vh]  ">
+          <img
+            src={Team3}
+            className=" h-full w-full rounded-lg  object-center"
+          />
+        </div>
+        <div class="  h-full mt-16 flex flex-col ">
+          <span class=" font-bold text-2xl  text-[#F4790F] mb-5">
+            VIshal Bhardwaj
+          </span>
+          <span class=" font-base text-xl text-[#F4790F] mb-10">
+            Finance Director, Tech Idea
+          </span>
+          <p class=" text-white font-medium">
+            Accomplished, results-driven prof'l w/ nearly 23 yrs exp in Cyber
+            Sec S/W & SAAS (12+ yrs) & Office Autom Prod & Comp HW (10+ yrs).
+            Proven track rec in dev & exec nat'l channel nets, direct-to-cust
+            strat, & Go-to-Mkt plans to achieve top & bot-line profit. Expertise
+            in channel & direct sales, cust engag, & rel'ship mgt w/ channel
+            partners, end custs, & govt sectors. Excep lead & team-bld skills,
+            w/ a focus on maint strong rel'ships & achiev outstand results.
           </p>
         </div>
       </div>
