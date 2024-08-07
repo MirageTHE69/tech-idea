@@ -1,91 +1,116 @@
-import React from "react"
-import Team1 from "../images/partner1.jpg"
-import Team2 from "../images/partner.png"
-import Team3 from "../images/team3.jpg"
+import React, { useState } from "react";
+import Team1 from "../images/partner1.jpg";
+import Team2 from "../images/partner.png";
+import Team3 from "../images/team3.jpg";
 
 function Team() {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const handleToggle = () => {
+    setIsExpanded(!isExpanded);
+  };
+
   return (
-    <div class=" w-screen bg-[#08152E] font-mono">
-      <span className=" w-full text-3xl font-bold text-white flex items-center justify-center mb-10">
+    <div className="w-screen bg-[#08152E] font-mono">
+      <span className="w-full text-3xl font-bold text-white flex items-center justify-center mb-10">
         Our Team
       </span>
-      <div class="  px-10 py-10 flex   flex-col lg:flex-row item-center justify-center w-full gap-5 ">
-        <div class=" sm:w-[40%] lg:w-[30%] lg:h-[50vh] sm:h-[40vh]  ">
+
+      <div className="px-10 py-8 flex flex-col lg:flex-row items-center justify-center w-full gap-5">
+        <div className="sm:w-[40%] lg:w-[30%] lg:h-[50vh] sm:h-[40vh]">
           <img
-            src={Team1}
-            className=" h-full w-full rounded-lg  object-center"
+            src={Team3}
+            className="h-full w-full rounded-lg object-cover"
+            alt="Team Member 1"
           />
         </div>
-        <div class="  h-full mt-16 flex flex-col ">
-          <span class=" font-bold text-2xl  text-[#F4790F] mb-5">
-            Harshvardhan bhosale
+        <div className="h-full mt-16 flex flex-col">
+          <span className="font-bold text-2xl text-[#F4790F] mb-5">
+            Vishal Bhardwaj
           </span>
-          <span class=" font-base text-xl text-[#F4790F] mb-10">
-            Finance Director, Tech Idea
+          <span className="font-base text-xl text-[#F4790F] mb-10">
+            National Sales Manager, Tech Idea
           </span>
-          <p class=" text-white font-medium">
-            Harshvardhan bhosale is the Finance Director at Tech Idea, with
-            extensive experience in finance and accounting. With his strategic
-            thinking, he oversees financial management, including budgeting and
-            compliance. Harvardan's leadership drives financial growth,
-            contributing to Tech Idea's success. He aims to optimize financial
-            processes to support the company's long-term growth vision."
-          </p>
+          <div className="relative">
+            <p
+              className={`text-white font-medium ${isExpanded ? 'line-clamp-none' : 'line-clamp-4'}`}
+              id="textContent"
+            >
+              Accomplished and results-driven professional with nearly 23 years of
+              extensive experience across Cyber Security Software & SAAS (12+
+              years) and Office Automation Products & Computer Hardware (10+
+              years). Proven track record in developing and executing nationwide
+              channel networks, direct-to-customer strategies, and Go-to-Market
+              plans to achieve top and bottom-line profitability. Expertise in
+              channel and direct sales, customer engagement, and relationship
+              management with channel partners, end customers, and government
+              sectors. Exceptional leadership and team-building skills, with a
+              focus on maintaining strong relationships and achieving outstanding
+              results.
+            </p>
+            <span
+              className="text-blue-500 font-bold cursor-pointer mt-2 block"
+              onClick={handleToggle}
+            >
+              {isExpanded ? 'Read Less' : 'Read More'}
+            </span>
+          </div>
         </div>
       </div>
 
-      <div class="  px-10 py-10 flex flex-col    lg:flex-row-reverse item-center justify-center w-full gap-5  ">
-        <div class=" sm:w-[40%] lg:w-[30%] lg:h-[50vh] sm:h-[40vh]  ">
+      <div className="px-10 py-10 flex flex-col lg:flex-row-reverse items-center justify-center w-full gap-5">
+        <div className="sm:w-[40%] lg:w-[30%] lg:h-[50vh] sm:h-[40vh]">
           <img
             src={Team2}
-            className=" w-full h-full rounded-lg object-center"
+            className="w-full h-full rounded-lg object-cover"
+            alt="Team Member 2"
           />
         </div>
-        <div class="  h-full mt-16 flex flex-col ">
-          <span class=" font-bold text-2xl text-right mr-16 text-[#F4790F] mb-5">
+        <div className="h-full mt-16 flex flex-col">
+          <span className="font-bold text-2xl text-right mr-16 text-[#F4790F] mb-5">
             Vijayendra Salunkhe
           </span>
-          <span class=" font-base text-xl text-right mr-16 text-[#F4790F] mb-10">
+          <span className="font-base text-xl text-right mr-16 text-[#F4790F] mb-10">
             Sales Director, Tech Idea
           </span>
-          <p class=" text-white font-medium">
+          <p className="text-white font-medium">
             Vijayendra Salunkhe, Sales Director at Tech Idea, brings over 15
             years of expertise in both hardware and software solutions. With a
             deep understanding of IT products, he drives sales growth and
             fosters client relationships. Vijayendra's broad knowledge makes him
             an asset in delivering customized IT solutions, strengthening Tech
-            Idea's position in the tech market
+            Idea's position in the tech market.
           </p>
         </div>
       </div>
 
-      <div class="  px-10 py-10 flex   flex-col lg:flex-row item-center justify-center w-full gap-5 ">
-        <div class=" sm:w-[40%] lg:w-[30%] lg:h-[50vh] sm:h-[40vh]  ">
+      <div className="px-10 py-10 flex flex-col lg:flex-row items-center justify-center w-full gap-5">
+        <div className="sm:w-[40%] lg:w-[30%] lg:h-[50vh] sm:h-[40vh]">
           <img
-            src={Team3}
-            className=" h-full w-full rounded-lg  object-center"
+            src={Team1}
+            className="h-full w-full rounded-lg object-cover"
+            alt="Team Member 3"
           />
         </div>
-        <div class="  h-full mt-16 flex flex-col ">
-          <span class=" font-bold text-2xl  text-[#F4790F] mb-5">
-            VIshal Bhardwaj
+        <div className="h-full mt-16 flex flex-col">
+          <span className="font-bold text-2xl text-[#F4790F] mb-5">
+            Harshvardhan Bhosale
           </span>
-          <span class=" font-base text-xl text-[#F4790F] mb-10">
+          <span className="font-base text-xl text-[#F4790F] mb-10">
             Finance Director, Tech Idea
           </span>
-          <p class=" text-white font-medium">
-            Accomplished, results-driven prof'l w/ nearly 23 yrs exp in Cyber
-            Sec S/W & SAAS (12+ yrs) & Office Autom Prod & Comp HW (10+ yrs).
-            Proven track rec in dev & exec nat'l channel nets, direct-to-cust
-            strat, & Go-to-Mkt plans to achieve top & bot-line profit. Expertise
-            in channel & direct sales, cust engag, & rel'ship mgt w/ channel
-            partners, end custs, & govt sectors. Excep lead & team-bld skills,
-            w/ a focus on maint strong rel'ships & achiev outstand results.
+          <p className="text-white font-medium">
+            Harshvardhan Bhosale is the Finance Director at Tech Idea, with
+            extensive experience in finance and accounting. With his strategic
+            thinking, he oversees financial management, including budgeting and
+            compliance. Harshvardhan's leadership drives financial growth,
+            contributing to Tech Idea's success. He aims to optimize financial
+            processes to support the company's long-term growth vision.
           </p>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Team
+export default Team;
