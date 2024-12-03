@@ -1,62 +1,20 @@
-import React, { useState } from "react";
-import Team1 from "../images/partner1.jpg";
-import Team2 from "../images/partner.png";
-import Team3 from "../images/team3.jpg";
+import React, { useState } from "react"
+import Team1 from "../images/partner1.jpg"
+import Team2 from "../images/partner.png"
+import Team3 from "../images/team3.jpg"
 
 function Team() {
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false)
 
   const handleToggle = () => {
-    setIsExpanded(!isExpanded);
-  };
+    setIsExpanded(!isExpanded)
+  }
 
   return (
     <div className="w-screen bg-[#08152E] font-mono">
       <span className="w-full text-3xl font-bold text-white flex items-center justify-center mb-10">
         Our Team
       </span>
-
-      <div className="px-10 py-8 flex flex-col lg:flex-row items-center justify-center w-full gap-5">
-        <div className="sm:w-[40%] lg:w-[30%] lg:h-[50vh] sm:h-[40vh]">
-          <img
-            src={Team3}
-            className="h-full w-full rounded-lg object-cover"
-            alt="Team Member 1"
-          />
-        </div>
-        <div className="h-full mt-16 flex flex-col">
-          <span className="font-bold text-2xl text-[#F4790F] mb-5">
-            Vishal Bhardwaj
-          </span>
-          <span className="font-base text-xl text-[#F4790F] mb-10">
-            National Sales Manager, Tech Idea
-          </span>
-          <div className="relative">
-            <p
-              className={`text-white font-medium ${isExpanded ? 'line-clamp-none' : 'line-clamp-4'}`}
-              id="textContent"
-            >
-              Accomplished and results-driven professional with nearly 23 years of
-              extensive experience across Cyber Security Software & SAAS (12+
-              years) and Office Automation Products & Computer Hardware (10+
-              years). Proven track record in developing and executing nationwide
-              channel networks, direct-to-customer strategies, and Go-to-Market
-              plans to achieve top and bottom-line profitability. Expertise in
-              channel and direct sales, customer engagement, and relationship
-              management with channel partners, end customers, and government
-              sectors. Exceptional leadership and team-building skills, with a
-              focus on maintaining strong relationships and achieving outstanding
-              results.
-            </p>
-            <span
-              className="text-blue-500 font-bold cursor-pointer mt-2 block"
-              onClick={handleToggle}
-            >
-              {isExpanded ? 'Read Less' : 'Read More'}
-            </span>
-          </div>
-        </div>
-      </div>
 
       <div className="px-10 py-10 flex flex-col lg:flex-row-reverse items-center justify-center w-full gap-5">
         <div className="sm:w-[40%] lg:w-[30%] lg:h-[50vh] sm:h-[40vh]">
@@ -110,7 +68,7 @@ function Team() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Team;
+export default Team
